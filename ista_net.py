@@ -219,6 +219,5 @@ model.metrics_names.append("cost2")
 ### TRAINING THE MODEL
 
 model.fit([x_inp, train_labels],
-          epochs = 50,
-          batch_size = 64,
-          validation_split = 0.1)
+          epochs = 300,
+          batch_size = 64)
