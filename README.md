@@ -8,8 +8,8 @@ Implementing ISTA-Net, an interpretable optimization-inspired deep network for i
 
 ## Observations and assumptions
 - The number of parameters mentioned in the paper is = 336,978. That is for Nb = 9. For Nb = 5 (as implemented in their Github code), number of parameters = (336,978x5)/9 = 187,210, consistent with my Keras implementation. 
-- I didn't have the processing power to train the model for 300 epochs, so I ran the training for 25 epochs and compared the results against the first 25 epochs of the code provided by the authors. Their implementation seemed to converge faster, but suffered from irregular gradients. My model converged slower, but had a gentle cost gradient. These epochs are detailed in the Jupyter notebook, and the authors' observations are well-detailed in their paper.
-.
+- I didn't have the processing power to train the model for 300 epochs, so I ran the training for 25 epochs and compared the results against the first 25 epochs of the code provided by the authors. Their implementation seemed to converge faster, but suffered from irregular gradients. My model converged slower, but had a gentle cost gradient. These epochs are detailed in the Jupyter notebook, and the authors' observations are well-described in their paper.
+
 ## Model visualisation
 
 Visualisation of my implementation:
