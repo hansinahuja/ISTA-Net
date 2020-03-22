@@ -12,6 +12,10 @@ Implementing ISTA-Net, an interpretable optimization-inspired deep network for i
 
 ## Model visualisation
 
+Author's visualisation:
+
+![Author's visualisation](ista_phase.png)
+
 Visualisation of my implementation:
 
 ![ISTA-Net model](model.png)
