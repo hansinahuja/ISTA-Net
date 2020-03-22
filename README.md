@@ -1,7 +1,7 @@
 # ISTA-Net
 Implementing ISTA-Net, an interpretable optimization-inspired deep network for image compressive sensing as proposed by Zhang and Ghanem in [this paper.](Zhang_ISTA-Net_Interpretable_Optimization-Inspired_CVPR_2018_paper.pdf)
 
-'''
+```
 @inproceedings{zhang2018ista,
   title={ISTA-Net: Interpretable Optimization-Inspired Deep Network for Image Compressive Sensing},
   author={Zhang, Jian and Ghanem, Bernard},
@@ -9,7 +9,7 @@ Implementing ISTA-Net, an interpretable optimization-inspired deep network for i
   pages={1828--1837},
   year={2018}
 }
-'''
+```
 
 ## How to run
 - Download the dataset `Training_Data_Img91.mat` from [this link,](https://drive.google.com/open?id=1RBYOg6F2dxGWoCrBvQyf93hXI-OEfzHs) place it in the current directory and then run `ista_net.py`. This file contains detailed comments.
